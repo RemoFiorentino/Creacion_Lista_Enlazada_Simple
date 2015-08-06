@@ -33,13 +33,13 @@ namespace Creacion_Lista {
 		{
 			InitializeComponent();
 			//
-			//TODO: agregar código de constructor aquí
+			//TODO: agregar cÃ³digo de constructor aquÃ­
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Limpiar los recursos que se estén utilizando.
+		/// Limpiar los recursos que se estÃ©n utilizando.
 		/// </summary>
 		~Form1()
 		{
@@ -49,39 +49,20 @@ namespace Creacion_Lista {
 			}
 		}
 		/// <summary>
-		/// Variable del diseñador requerida.
+		/// Variable del diseÃ±ador requerida.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Método necesario para admitir el Diseñador. No se puede modificar
-		/// el contenido del método con el editor de código.
+		/// MÃ©todo necesario para admitir el DiseÃ±ador. No se puede modificar
+		/// el contenido del mÃ©todo con el editor de cÃ³digo.
 		/// </summary>
 		void AgregarPila(){
-			Nodo^ Q = gcnew Nodo();
-			Q->info = textBox1->Text;
-			Q->Link=PTR;
-			PTR = Q;
+			
 		}
 		void AgregarCola(){
-			Nodo^ Q = gcnew Nodo();
-			Q->info = textBox1->Text;
-			if(PTR == nullptr){
-				//lista vacia
-				//Q->info = textBox1->Text;
-				Q->Link = PTR;// ptr = nulo
-				PTR = Q;
-			}else{
-				Nodo^ P = gcnew Nodo();
-				P = PTR;
-				while(P->Link != nullptr){
-					P = P->Link;
-				}
-				//Q->info = textBox1->Text;
-				P->Link = Q;
-				Q->Link = nullptr;
-			}
+			
 		}
 		void mostrar(){
 			listBox1->Items->Clear();
