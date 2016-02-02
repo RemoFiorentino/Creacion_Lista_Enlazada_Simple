@@ -1,9 +1,9 @@
-// Creacion_Lista.cpp: archivo de proyecto principal.
+// Creacion_Lista_Enlazada_Simple.cpp: archivo de proyecto principal.
 
 #include "stdafx.h"
 #include "Form1.h"
 
-using namespace Creacion_Lista;
+using namespace Creacion_Lista_Enlazada_Simple;
 
 [STAThreadAttribute]
 int main(array<System::String ^> ^args)

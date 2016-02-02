@@ -11,12 +11,12 @@ using namespace System::Security::Permissions;
 // conjunto de atributos. Cambie estos atributos para modificar la información
 // asociada con un ensamblado.
 //
-[assembly:AssemblyTitleAttribute("Creacion_Lista")];
+[assembly:AssemblyTitleAttribute("Creacion_Lista_Enlazada_Simple")];
 [assembly:AssemblyDescriptionAttribute("")];
 [assembly:AssemblyConfigurationAttribute("")];
-[assembly:AssemblyCompanyAttribute("")];
-[assembly:AssemblyProductAttribute("Creacion_Lista")];
-[assembly:AssemblyCopyrightAttribute("Copyright (c)  2015")];
+[assembly:AssemblyCompanyAttribute("Microsoft")];
+[assembly:AssemblyProductAttribute("Creacion_Lista_Enlazada_Simple")];
+[assembly:AssemblyCopyrightAttribute("Copyright (c) Microsoft 2016")];
 [assembly:AssemblyTrademarkAttribute("")];
 [assembly:AssemblyCultureAttribute("")];
 
